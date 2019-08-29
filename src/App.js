@@ -5,7 +5,7 @@ import SingleRoom from "./pages/SingleRoom";
 import Error from "./pages/Error";
 import { Route, Switch } from "react-router-dom";
 // import logo from "./logo.svg";
-// import './App.css';
+import "./App.css";
 import Navbar from "./components/Navbar";
 
 function App() {

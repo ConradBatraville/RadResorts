@@ -112,8 +112,8 @@ h6 {
   color: var(--primaryColor);
 }
 .nav-links {
-  /* height: 0;
-  overflow: hidden; */
+  height: 0;
+  overflow: hidden;
   transition: var(--mainTransition);
   list-style-type: none;
 }
@@ -159,7 +159,7 @@ h6 {
 .defaultHero,
 .roomsHero {
   min-height: calc(100vh - 66px);
-  background: url("./images/defaultBcg.jpeg") center/cover no-repeat;
+  background: url("./images/defaultBcg.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
