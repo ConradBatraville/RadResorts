@@ -6,13 +6,18 @@ import Error from "./pages/Error";
 import { Route, Switch } from "react-router-dom";
 // import logo from "./logo.svg";
 // import './App.css';
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/rooms/" component={Rooms} />
-      <Route exact path="/single-room" component={SingleRoom} />
+      <Navbar />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/rooms/" component={Rooms} />
+        <Route exact path="/room/:slug" component={SingleRoom} />
+        <Route component={Error} />
+      </Switch>
     </>
   );
 }
