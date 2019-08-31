@@ -8,12 +8,9 @@ const home = () => {
   return (
     <>
       <Hero>
-        <Banner
-          title="luxurious rooms"
-          subtitle="Deluxe Rooms starting at $499"
-        >
+        <Banner title="Modern Resorts" subtitle="Deluxe Rooms starting at $599">
           <Link to="/rooms" className="btn-primary">
-            Our Rooms
+            Find a Room
           </Link>
         </Banner>
       </Hero>
