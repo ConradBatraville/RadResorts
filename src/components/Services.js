@@ -7,26 +7,24 @@ export default class Services extends Component {
       {
         icon: <FaCocktail />,
         title: "Free Cocktails",
-        info:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+        info: "Enjoy free drinks on your first 5 stays with Rad Resorts."
       },
       {
         icon: <FaHiking />,
         title: "Endless Hiking",
         info:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+          "The fresh earth beneath your feet, the crisp air in your lungs, the bees buzzing and the birds chirping -- there’s nothing better than getting out of the city for a scenic hike. "
       },
       {
         icon: <FaShuttleVan />,
         title: "Free Shuttle",
         info:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+          "Free shuttle service to and from the airport from one of our 35 vehicles"
       },
       {
         icon: <FaBeer />,
         title: "Strongest Beer",
-        info:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+        info: "Did we mention our own craft beers?"
       }
     ]
   };
